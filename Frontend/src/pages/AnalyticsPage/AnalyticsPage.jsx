@@ -8,7 +8,7 @@ function AnalyticsPage() {
       <SideNav />
       <Analytics />
     </div>
-  );
+  ); 
 }
 
 export default AnalyticsPage;
