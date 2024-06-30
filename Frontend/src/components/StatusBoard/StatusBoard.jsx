@@ -4,7 +4,7 @@ import plusIcon from "../../assets/icons/plus.svg";
 import collapseAllIcon from "../../assets/icons/collapseAll.svg";
 import TaskCard from "../TaskCard/TaskCard";
 import TaskAddModal from "../TaskAddModal/TaskAddModal";
-function StatusBoard({ tasks, heading, plusBtn }) {
+function StatusBoard({ tasks, heading, plusBtn }) { 
   const [isCollapseAll, setIsCollapseAll] = useState(false);
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [openChecklistCount, setOpenChecklistCount] = useState(0);
