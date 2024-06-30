@@ -3,7 +3,7 @@ import styles from "./TaskAddModal.module.css";
 import deleteIcon from "../../assets/icons/delete.svg";
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
-import toast, { Toaster } from "react-hot-toast";
+import toast, { Toaster } from "react-hot-toast"; 
 import { createTask } from "../../apis/task";
 import MyContext from "../ContextApi/MyContext";
 import LoadingMessage from "../LoadingMessage/LoadingMessage";
