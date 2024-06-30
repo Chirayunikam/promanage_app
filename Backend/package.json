@@ -8,7 +8,7 @@
     "dev": "nodemon server.js",
     "build": "npm i"
   },
-  "author": "Abhishek Sharma",
+  "author": "Chirayu Nikam",
   "license": "ISC",
   "dependencies": {
     "bcrypt": "^5.1.1",
