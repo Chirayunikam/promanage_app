@@ -3,7 +3,7 @@ import React from "react";
 function GetButtons({ taskId, buttonPressed, newStatus }) {
   let buttons;
   switch (newStatus) {
-    case "backlog":
+    case "backlog": 
       buttons = (
         <>
           <button onClick={() => buttonPressed(taskId, "progress")}>
