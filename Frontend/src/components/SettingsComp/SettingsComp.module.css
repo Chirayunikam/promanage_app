@@ -5,7 +5,7 @@
   flex-direction: column;
   gap: 2rem;
 }
-
+ 
 .error {
   font-family: var(--inter-fontFamily);
   font-weight: 400;
