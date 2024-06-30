@@ -3,7 +3,7 @@ import styles from "./Board.module.css";
 import StatusBoard from "../StatusBoard/StatusBoard";
 import { getUserInfo, getCurrentDate } from "../../utils/helper";
 
-import MyContext from "../ContextApi/MyContext";
+import MyContext from "../ContextApi/MyContext"; 
 import ActionModal from "../ActionModal/ActionModal";
 
 function Board() {
