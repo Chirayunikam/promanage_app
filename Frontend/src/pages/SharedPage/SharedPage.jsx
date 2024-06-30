@@ -3,7 +3,7 @@ import TaskDescription from "../../components/TaskDescription/TaskDescription";
 
 function SharedPage() {
   return (
-    <div>
+    <div> 
       <TaskDescription />
     </div>
   );
