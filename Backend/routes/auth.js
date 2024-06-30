@@ -2,7 +2,7 @@ const express = require("express");
 const router = express.Router();
 const bcrypt = require("bcrypt");
 const User = require("../models/user");
-const jwt = require("jsonwebtoken");
+const jwt = require("jsonwebtoken"); 
 const verifyJwtToken = require("../middlewares/authMiddleware");
 
 // This endpoint is created to register the user
