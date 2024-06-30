@@ -20,7 +20,7 @@ function CheckItem({ taskId, itemId, name, selected, onCheckboxChange }) {
     }
   };
   return (
-    <div className={styles.item}>
+    <div className={styles.item}> 
       <input
         type="checkbox"
         checked={isChecked}
