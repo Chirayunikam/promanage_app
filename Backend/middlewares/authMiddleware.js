@@ -19,7 +19,7 @@ const verifyJwtToken = (req, res, next) => {
       });
     }
 
-    req.body.userId = decode.userId;
+    req.body.userId = decode.userId; 
     next();
   } catch (error) {
     res.status(401).json({
