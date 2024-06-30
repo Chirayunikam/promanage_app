@@ -3,7 +3,7 @@ import SideNav from "../../components/SideNav/SideNav";
 import SettingsComp from "../../components/SettingsComp/SettingsComp";
 
 function SettingsPage() {
-  return (
+  return ( 
     <div style={{ display: "flex" }}>
       <SideNav />
       <SettingsComp />
