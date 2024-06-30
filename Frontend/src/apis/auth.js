@@ -2,7 +2,7 @@ import axios from "axios";
 const backendUrl = `${import.meta.env.REACT_APP_BACKEND_URL}/auth`;
 export const registerUser = async ({ name, email, password }) => {
   try {
-    const requestUrl = `${backendUrl}/register`;
+    const requestUrl = `${backendUrl}/register`; 
     const reqPayload = { name, email, password };
 
     const response = await axios.post(requestUrl, reqPayload);
