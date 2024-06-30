@@ -7,7 +7,7 @@ export const getCurrentDate = () => {
   const day = currDate.getDate();
   const month = currDate.toLocaleString("default", { month: "short" });
   const year = currDate.getFullYear();
-
+ 
   let daySuffix;
   switch (day) {
     case 1:
