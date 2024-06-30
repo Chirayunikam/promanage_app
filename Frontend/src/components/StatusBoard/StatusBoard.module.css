@@ -13,7 +13,7 @@
 
 .statusBoard::-webkit-scrollbar {
   width: 0.8vw;
-}
+}  
 
 .statusBoard::-webkit-scrollbar-track {
   background: #d6eaf4;
