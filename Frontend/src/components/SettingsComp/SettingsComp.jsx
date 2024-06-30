@@ -10,7 +10,7 @@ import { useNavigate } from "react-router-dom";
 import LoadingSpinner from "../LoadingSpinner/LoadingSpinner";
 function Settings() {
   const navigate = useNavigate();
-
+ 
   const [isLoading, setIsLoading] = useState(false);
 
   const [isOldPasswordVisible, setIsOldPasswordVisible] = useState(false);
