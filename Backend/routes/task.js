@@ -20,7 +20,7 @@ router.post("/create", verifyJwtToken, async (req, res) => {
       title,
       priority,
       checklist,
-      dueDate,
+      dueDate, 
       status,
       refUserId: req.body.userId,
     });
