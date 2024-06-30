@@ -82,7 +82,7 @@ function TaskEditModal({ isOpen, onClose }) {
           checklist,
           status,
           dueDate
-        );
+        ); 
 
         if (response?.success === false) {
           toast.error(response?.message);
