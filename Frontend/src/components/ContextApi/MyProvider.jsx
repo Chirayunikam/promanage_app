@@ -24,7 +24,7 @@ function Provider({ children }) {
     setIsDeleteModalOpen(true);
   };
 
-  const handleCloseDeleteModal = () => {
+  const handleCloseDeleteModal = () => { 
     setIsDeleteModalOpen(false);
   };
 
