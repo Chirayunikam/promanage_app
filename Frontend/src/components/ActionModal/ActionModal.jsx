@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./ActionModal.module.css";
+import styles from "./ActionModal.module.css"; 
 function ActionModal({ name, handleAction, isOpen, onClose }) {
   return (
     <>
