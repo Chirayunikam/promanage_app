@@ -1,4 +1,4 @@
-import React from "react";
+ import React from "react";
 import styles from "./LoadingMessage.module.css";
 import hourGlass from "../../assets/gif/Hourglass.gif";
 function LoadingMessage() {
