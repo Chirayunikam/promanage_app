@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+ import React, { useState } from "react";
 import toast, { Toaster } from "react-hot-toast";
 import emailSVG from "../../assets/icons/emailSVG.svg";
 import eye from "../../assets/icons/eye.svg";
