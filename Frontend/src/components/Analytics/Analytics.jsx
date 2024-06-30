@@ -4,7 +4,7 @@ import { getAnalyticsData } from "../../apis/task";
 import toast, { Toaster } from "react-hot-toast";
 import LoadingSpinner from "../LoadingSpinner/LoadingSpinner";
 function Analytics() {
-  const [analyticData, setAnalyticData] = useState(false);
+  const [analyticData, setAnalyticData] = useState(fa lse);
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
