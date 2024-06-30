@@ -4,7 +4,7 @@ import SideNav from "../../components/SideNav/SideNav";
 
 function HomePage() {
   return (
-    <div style={{ display: "flex" }}>
+    <div style={{ display: "flex" }}> 
       <SideNav />
       <Board />
     </div>
