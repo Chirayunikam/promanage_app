@@ -7,7 +7,7 @@ export const getAnalyticsData = async () => {
     const token = localStorage.getItem("tokenPro");
     axios.defaults.headers.common["Authorization"] = token;
     const response = await axios.get(requestUrl);
-    return response?.data;
+    return response?.data; 
   } catch (error) {
     return error.response?.data;
   }
