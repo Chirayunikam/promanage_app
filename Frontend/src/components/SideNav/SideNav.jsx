@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import styles from "./SideNav.module.css";
 import toast, { Toaster } from "react-hot-toast";
 import codeSandBoxIcon from "../../assets/icons/codeSandBox.svg";
-import layoutIcon from "../../assets/icons/layout.svg";
+import layoutIcon from "../../assets/icons/layout.svg"; 
 import logoutIcon from "../../assets/icons/logout.svg";
 import settingsIcon from "../../assets/icons/settings.svg";
 import databaseIcon from "../../assets/icons/database.svg";
