@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./CoverImage.module.css";
 import doodleImg from "../../assets/images/doodleImg.png";
 function CoverImage() {
-  return (
+  return ( 
     <div className={styles.coverSection}>
       <div className={styles.imageSec}>
         <div className={styles.bgCircle}></div>
